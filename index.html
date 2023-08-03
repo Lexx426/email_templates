@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN” “https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd”>
+<html xmlns=“https://www.w3.org/1999/xhtml”>
+<head>
+<title>Test Email Sample</title>
+<meta http–equiv=“Content-Type” content=“text/html; charset=UTF-8” />
+<meta http–equiv=“X-UA-Compatible” content=“IE=edge” />
+<meta name=“viewport” content=“width=device-width, initial-scale=1.0 “ />
+<style>
+    body{
+        margin: 0; /*  removes any spacing above , left, and right of email template design- when you size it under 600px */
+        background-color: #cccccc;
+    }
+    table{
+            border-spacing: 0;
+    }
+    td {
+        padding: 0;
+    }
+    img {
+        border: 0;
+    } 
+
+    .wrapper{
+        width: 100%;
+        /* so that when you size it down, the center tag takes up 100%, there isnt any bit of spacing to the sides of the table */
+        table-layout: fixed;
+        /* makes sure that the table tag itself is not any wider than the center tag that it is inside of */
+        background-color: #cccccc;
+        /* just reinforces the background color */
+        padding-bottom: 60px;
+        /* adds some spacing to the bottom of the email template ---- optional */
+    }
+
+    .main{
+        /* styling the MAIN table */
+        background-color: #ffffff;
+        margin: 0 auto;
+        /* reinforces centering */
+        width: 100%;
+        max-width: 600px;
+        /* the recommended email template width to make sure that it displays properly across email clients */
+        border-spacing: 0;
+        /* makes sure that their is no spacing off to the sides of the main table - which you may see in certain email clients */
+        font-family: sans-serif;
+        color: #171a1b;
+    }
+
+    .two-columns{
+        text-align: center;
+        /* allows for content to be centered on mobile */
+        font-size: 0;
+        /* does not work , had to eliminate break of each line */
+    }
+
+    .two-columns .column{
+        /* so that the two columns sit next to each other before they stack up on each other in mobile view.. */
+        width: 100%;
+        max-width: 300px;
+        /* so they fit inside the 600px width of the template width */
+        display: inline-block;
+        vertical-align: top;
+        /* last thing to make inline then stack */
+        text-align: center;
+
+    }
+
+    .three-columns{
+        text-align: center;
+        /* because you have text and images inside of links - to center */
+        font-size: 0;
+        /* still did not work */
+        padding: 15px 0 25px;
+        /* creates space separating from the top banner and underneath */
+    }
+
+    .three-columns .column{
+        /* so that the two columns sit next to each other before they stack up on each other in mobile view.. */
+        width: 100%;
+        max-width: 200px;
+        /* so they fit inside the 600px width of the template width */
+        display: inline-block;
+        vertical-align: top;
+        /* last thing to make inline then stack */
+        text-align: center;
+    }
+
+    .three-columns .padding{
+        padding: 15px;
+    }
+
+    .three-columns .content{
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0  15px;
+    }
+
+    .two-columns.last{
+        padding: 5px 0;
+        /* to get your two columns next to each other, you remove the padding from the left and right */
+    }
+
+    .two-columns .padding{
+        padding: 20px;
+    }
+
+    .two-columns .content {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+        
+    }
+
+    .button {
+        background-color: #ffffff;
+        color: #171a1b;
+        text-decoration: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .button-dark {
+        color: #ffffff;
+        background-color: #171a1b;
+        text-decoration: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+</style>
+</head>
+<body>
+
+
+    <center class="wrapper"> 
+        <!-- wrapper will reinforce the gray background as well as set up the styling for the table that is inside it -->
+        <table class="main" width="100%">
+        <!-- this is the main table that will contain our whole html email template and everything you see inside it. You give it a width of 100% so it can take 100% of the center tag that it is nested in -->
+
+<!--  TOP BORDER -->
+
+    <!-- Each section of our content will start with the table row tag, and inside of that it will contain a table data tag -->
+            <tr>
+                <td height="8" style="background-color: #171a1b;"></td>
+            </tr>
+
+<!-- LOGO SECTION -->
+
+            <tr>
+                <td style="padding: 14px 0 4px;">
+                    <!-- this gives padding to the actual header itself, apart from the logo and icons. which you only want top and bottom padding. -->
+                    <table width="100%">
+                        <!-- these give spacing around the two columns -->
+                        <tr> 
+                            <td class="two-columns">
+                                <table class="column">
+                                    <!-- you add the new tr/td to be able to add some padding -->
+                                    <!-- the two-colum and column will allow us to have these sections in line before they stack on top of each other for the movile version at 600px breal point -->
+                                    <tr>
+                                        <td style="padding: 0 62px 10px;">
+                                        <!-- padding around logo, 62 left/right. about half of the width, so it is centered inside of the 300px column -->
+                                            <a href="#">
+                                                <img src="/img/modern.jpg" alt="" width="180" title="Modern Logo">
+                                            </a>
+                                            <!-- images need to be uploaded to the web in order to show in the email box -->
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td style="padding: 10px 72px;">
+                                            <!-- about half of the width -->
+                                            <!-- <a href="#"><img src="img/black-facebook.png" alt="" width="30"></a><a href="#"><img src="img/black-twitter.png" alt="" width="30"></a><a href="#"><img src="img/black-youtube.png" alt="" width="30"></a><a href="#"><img src="img/black-linkedin.png" alt="" width="30"></a><a href="#"><img src="img/black-instagram.png"  alt="" width="30"></a> -->
+                                            <!-- had to not make it a new line, by having it on a new line everytime, the additional white space did not dissapear (font-size = 0) -->
+                                            <a href="https://imgbb.com/"><img src="https://i.ibb.co/4Twzwf6/black-linkedin.png" alt="black-linkedin" border="0" width="30"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            
+
+<!-- BANNER IMAGE -->
+
+            <tr>
+                <td>
+                    <!-- <a href="#"><img src="img/banner.jpg" alt="" width="600"style="max-width: 100%;"></a> -->
+                    <a href="https://ibb.co/G7FG983"><img src="https://i.ibb.co/jhHqzQZ/banner.jpg" alt="banner" border="0"  width="600"style="max-width: 100%;"></a>
+                    <!-- so that it is never wider than the width of the window -- max-width100% -->
+                </td>
+            </tr>
+
+
+<!-- THREE COLUMN SECTION -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="three-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <!-- <a href="#"><img src="/img/email.png" alt="" width="130" style=" max-width: 130px; padding-left: 5px;"></a> -->
+                                                        <a href="https://ibb.co/VvLxxz0"><img src="https://i.ibb.co/wKd77PZ/email.png" alt="email" border="0" style=" max-width: 130px; padding-left: 5px;"></a>
+                                                    </td>
+                                                </tr>
+                                                <!-- the above tr is just for the img. next row will be for therest of the content -->
+                                                <tr>
+                                                    <td style="text-align: center;">
+                                                        <p style="font-weight: bold; font-size: 17px;">Ecommerce</p>
+                                                        <p>Responsive HTML Email Template Course to master email development.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- this is the code for 1 full column  -->
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <!-- <a href="#"><img src="/img/settings.png" alt="" width="130" style=" max-width: 130px;"></a> -->
+                                                        <a href="https://ibb.co/Kbp0Jnf"><img src="https://i.ibb.co/7jdYqhZ/settings.png" alt="settings" border="0" width="130" style=" max-width: 130px;"></a>
+                                                    </td>
+                                                </tr>
+                                                <!-- the above tr is just for the img. next row will be for therest of the content -->
+                                                <tr>
+                                                    <td style="text-align: center;">
+                                                        <p style="font-weight: bold; font-size: 17px;">Web Design</p>
+                                                        <p>Responsive HTML Email Template Course to master email development.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <!-- <a href="#"><img src="/img/home.png" alt="" width="130" style=" max-width: 130px;"></a> -->
+                                                        <a href="https://ibb.co/Lh0ZBfv"><img src="https://i.ibb.co/cXyrRdx/home.png" alt="home" border="0" width="130" style=" max-width: 130px;"></a>
+                                                    </td>
+                                                </tr>
+                                                <!-- the above tr is just for the img. next row will be for therest of the content -->
+                                                <tr>
+                                                    <td style="text-align: center;">
+                                                        <p style="font-weight: bold; font-size: 17px;">HTML Email</p>
+                                                        <p>Responsive HTML Email Template Course to master email development.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+<!-- TWO COLUMN SECTION -->
+            <tr>
+                <td style="background-color: #26292b; color: #ffffff;">
+                    <!-- since your portion is black, you want the text to be white -->
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns last">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <!-- <a href="#"><img src="/img/keyboard.jpg" alt="" width="260" style="max-width: 260px;"></a> -->
+                                                        <a href="https://ibb.co/f4BVgvG"><img src="https://i.ibb.co/J50W1QF/keyboard.jpg" alt="keyboard" border="0" width="260" style="max-width: 260px;"></a>
+
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold; font-size: 18px; color: #ffffff;">Create Custom Designs</p>
+                                                        <p style="color: #ffffff; padding-bottom: 16px;"> Over the years we have built up a massive portolio our client website and email designs.</p>
+                                                        <a  href="#" class="button"> Read More</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+
+<!-- TITLE, TEXT, AND BUTTON -->
+            <tr>
+                <td style="padding: 15px 0 50px">
+                    <table width="100%">
+                        <!-- make sure to do it 100% so that it goes across the email, if you forget and just do 100, it will stack  -->
+                        <tr>
+                            <td style="text-align: center; padding: 15px;">
+                                <!-- text align to center it, remember you have to do it on the parent -->
+                                <p style="font-size: 20px; font-weight: bold;"> HTML Email Template Course</p>
+                                <p style="line-height: 23px; font-size: 15px; padding: 5px 0 15px;"> Responsive HTML Email Templates that you can build around. Responsive HTML Email Templates that you can build around. Responsive HTML Email Templates that you can build around. Responsive HTML Email Templates that you can build around. </p>
+                                <a href="#" class="button-dark"> View Course</a>
+                            </td>
+                        </tr>
+                        <!-- added this so you can add some padding to keep the text away from the edges of the template -->
+                    </table>
+                </td>
+            </tr>
+
+
+<!-- FOOTER SECTION -->
+
+            <tr>
+                <td style="background-color: #26292b;">
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; padding: 40px 20px; color: #ffffff;">
+                                <!-- again used to center the logo, so all kids -->
+                                <a href="#"><img src="img/modern-white.png" alt="" width="180"></a>
+                                <p style="padding: 10px"> Morden HTML Email</p>
+                                <p style="padding: 10px"> 123 Street Road, City, State 55555</p>
+                                <!-- <a href="#"><img src="img/white-facebook.png" alt="" width="30"></a><a href="#"><img src="img/white-twitter.png" alt="" width="30"></a><a href="#"><img src="img/white-youtube.png" alt="" width="30"></a><a href="#"><img src="img/white-linkedin.png" alt="" width="30"></a><a href="#"><img src="img/white-instagram.png"  alt="" width="30"></a> -->
+
+                                <a href="https://imgbb.com/"><img src="https://i.ibb.co/d6hJ6jV/white-facebook.png" alt="white-facebook" border="0" width="30"></a><a href="https://imgbb.com/"><img src="https://i.ibb.co/TK67g0V/white-instagram.png" alt="white-instagram" border="0" width="30"></a><a href="https://imgbb.com/"><img src="https://i.ibb.co/RjYdkm6/white-linkedin.png" alt="white-linkedin" border="0" width="30"></a><a href="https://imgbb.com/"><img src="https://i.ibb.co/tsSq8gM/white-twitter.png" alt="white-twitter" border="0" width="30"></a><a href="https://imgbb.com/"><img src="https://i.ibb.co/W5SRsBq/white-youtube.png" alt="white-youtube" border="0" width="30"></a>
+
+                                <p style="padding: 10px;"> SUBSCRIBE</p>
+                                
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
