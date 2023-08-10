@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SailChimp HTML Email Template</title>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+	body {
+		margin: 0;
+	}
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+
+	.wrapper{
+		background-color: #e5dec7 ;
+		width: 100%;
+		table-layout: fixed;
+		/* no content or part of the email template can span outside of the center tag.3. */
+		padding-bottom: 60px;
+		/* makes it so that it separates the template from the broswer or email client */
+	}
+
+	.main {
+		width:100%;
+		max-width: 600px;
+		background-color: #fff;
+		font-family: sans-serif;
+		color: #4a4a4a;
+		box-shadow: 0 0 25px rgba(0, 0, 0, .15);
+		/*  0 vertical, 0 horizontal, 25 px blur radius  */
+		text-align: center;
+	}
+	.social{
+		width: 38px;
+	}
+	.social-media{
+		padding: 12px 0 12px 62px;
+	}
+	.two-columns{
+		font-size: 0;
+		/* email clients like to add fontsize to links, and since our images are wrapped in links, so there is some extra space */
+		text-align: center;
+		/* going to center our table data classes */
+	}
+	.two-columns .column{
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		/* what lets the two columns stack on top of each other.Going to position our tables next to each other or inline as block elements */
+		vertical-align: top;
+		/* in order for email clients to be able to make the email stack, making the tables responsive..this!  */
+	}
+	.h3{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 28px;
+	}
+	.button{
+		background-color: #4a4a4a;
+		color: #fff;
+		text-decoration: none;
+		padding: 12px 20px;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+
+	h4{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 22px;
+	}
+
+	.three-columns{
+		font-size: 0;
+		/* makes text disappear, so you add the fotsize in .content */
+		padding: 35px 0 20px;
+	}
+	.three-columns .column{
+		width: 100%;
+		max-width: 200px;
+		display: inline-block;
+		/* what lets the two columns stack on top of each other.Going to position our tables next to each other or inline as block elements */
+		vertical-align: top;
+		/* in order for email clients to be able to make the email stack, making the tables responsive..this!  */
+	}
+	.three-columns .padding{
+		padding: 25px;
+	}
+	.three-columns .content{
+		font-size: 15px; 
+		line-height: 20px;
+	}
+
+</style>
+</head>
+<body>
+
+	<center class="wrapper">
+	<!-- the center tag is not what centers the template, it is just the whole width of the page that we are seeing -->
+		<table class="main" width="100%">
+			<!-- where our table rows and table data will be nested  -->
+
+
+			
+<!-- BORDER -->
+			<tr>
+				<td height="8" style="background-color: black;"></td>
+			</tr>
+<!-- LOGO & SOCIAL MEDIA SECTION -->
+			<tr>
+				<!-- you will never add styling to the tr -->
+				<td style="padding: 14px 0 4px;">
+					<!-- important to have padding for td set to 0 for the left rigth, so you can use the full width of the template. so you use this one to add top and bottom for the whole header and then we can add spacing around the logo and social media icons-->
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
+								<!-- this class will set us up for allowing the two tables to stack -->
+								<table class="column">
+									<tr>
+										<td style="padding: 0 22px 10px;">
+											<a href="#"><img src="/img/logo.png" alt="logo" width="250"></a>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="social-media">
+											<a href="#"><img src="/img/facebook.png" alt="" class="social"></a>
+											<a href="#"><img src="/img/twitter.png" alt="" class="social"></a>
+											<a href="#"><img src="/img/youtube.png" alt="" class="social"></a>
+											<a href="#"><img src="/img/linkedin.png" alt="" class="social"></a>
+											<a href="#"><img src="/img/instagram.png" alt="" class="social"></a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!-- BANNER IMAGE -->
+			<tr>
+				<td>
+					<a href="#"><img src="/img/banner.jpg" alt="" width="600" style="max-width: 100% ;" ></a>
+				</td>
+			</tr>
+			<!-- only section outside of the borders where we'll use a single set of table row and table data tags B/C we do not want any spacing around our banner image which will be wrapped in a link-->
+<!-- TITLE, TEXT & BUTTON -->
+			<tr>
+				<td style="padding: 20px 15px 50px;">
+					<table width="100%">
+						<tr>
+							<td>
+								<h3> HTML Email Template<span style="color: #c89800;"> Course</span> </h3>
+								<p style="line-height: 23px; font-size: 15px; padding: 0 0 22px;">
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum natus, ut reprehenderit voluptatem illum maxime vero amet deserunt neque sequi asperiores eos odio, laborum, sit corporis placeat quibusdam necessitatibus sed.
+								</p>
+								<a href="#" class="button"> View Course</a>
+							</td>
+						</tr>
+
+
+					</table>
+				</td>
+			</tr>
+<!-- BORDER -->
+			<tr>
+				<td height="2" style="background-color: black;"></td>
+			</tr>
+<!-- THREE COLUMN SECTION -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="three-columns">
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="/img/design.png" alt="" width="150"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px;">
+														<h4> Email Design</h4>
+														<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur assumenda, commodi ut excepturi esse nesciunt. Quos labore saepe cupiditate nihil, esse, atque molestiae, quisquam vel sequi optio doloribus mod
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="/img/development.png" alt="" width="150"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px;">
+														<h4> development</h4>
+														<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur assumenda, commodi ut excepturi esse nesciunt. Quos labore saepe cupiditate nihil, esse, atque molestiae, quisquam vel sequi optio doloribus mod
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="/img/marketing.png" alt="" width="150"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px;">
+														<h4> Email Marketing</h4>
+														<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur assumenda, commodi ut excepturi esse nesciunt. Quos labore saepe cupiditate nihil, esse, atque molestiae, quisquam vel sequi optio doloribus mod
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<!-- use to add spacing and indentify column class separating it from two-column sections-->
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!-- BORDER -->
+			
+<!-- TWO COLUMN SECTION -->
+			
+<!-- FOOTER SECTION -->
+			
+
+		</table> <!-- End Main Class -->
+
+	</center> <!-- End Wrapper -->
+
+</body>
+</html>
