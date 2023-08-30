@@ -1,0 +1,98 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Gloria Hallelujah" href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Luckiest+Guy&family=Playfair+Display&family=Quantico&family=Satisfy&family=Teko&display=swap" />
+        <mj-attributes>
+            <mj-image padding="0px" />
+            <mj-section padding="0px" background-color="#fb7dff"/>
+            <mj-text font-family="Gloria Hallelujah" align="center"  font-size="22px" padding="0px" line-height="26px"/>
+        </mj-attributes>    
+    </mj-head>
+    <mj-body  background-color="#ab6bff" width="600px" >
+        <!-- hero image -->
+        <mj-hero mode="fluid-height" background-width="600px" background-height="700px" background-url="https://tryboredcow.com/cdn/shop/files/bored-cow-original-pouring-glass_1400x.jpg?v=1671133130" background-color="#000000" padding="0px">
+        </mj-hero>
+        <mj-section>
+            <mj-column >
+                <mj-text  font-size="50px" line-height="45px" padding="60px 20px 30px 20px">
+                    Cows are allowed to be bored too!
+                </mj-text>
+                <mj-text line-height="35px"padding="30px 30px 30px 30px">
+                    What would cows do if they didn't have to provide milk for us? It's an important question for cows, who have been working for us for 10,000 years, and now live primarily on factory farms. But it's a critical question for us (and our planet) too. We believe the future of dairy is animal-free, and we won't quit until every last cow is free to do whatever she pleases.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- two column section -->
+        <mj-section padding-top="50px">
+            <mj-column width="250px">
+                <mj-image border-radius="20px" border="solid 4px black" src="https://tryboredcow.com/cdn/shop/files/bored-cow-original-rich-creamy-sip_800x.jpg?v=1677508608" alt="glass of milk" />
+            </mj-column>
+            <mj-column width="250px">
+                <mj-text padding="25px" font-weight="bold">
+                    Gosh.
+                </mj-text>
+                <mj-text padding="5px 10px 15px 25px">
+                    Doesn't she just look so good and refreshing ?
+                </mj-text>
+                <mj-text padding="10px 10px 15px 25px">
+                    I know. Just wait until you try out our other flavors.
+                </mj-text>
+                <mj-button href="#" color="black" background-color="#ab6bff" border="3px solid black" border-radius="50px" font-family="Gloria Hallelujah" font-size="15px" font-weight="bold">
+                    MOO-ve along
+                </mj-button>
+                
+            </mj-column>
+        </mj-section>
+        <mj-section padding-top="50px" padding-bottom="50px">
+            <mj-group>
+                
+            
+                <mj-column width="75%" padding="40px 0px 50px 30px">
+                    <mj-text font-weight="bold" text-decoration="underline"padding-bottom="15px">
+                        Meet Becky
+                    </mj-text>
+                    <mj-text padding-bottom="15px">
+                        Her newest hobby is playing the guitar. She enjoys getting toasty by graving the grass next to a campfire - ending the night with pretending to serenade her crush.  
+                    </mj-text>
+                    <mj-text font-weight="bold">
+                        She has refused to name her crush.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="25%" padding="70px 10px 50px 0px">
+                    <mj-image width="100px"src="https://i.ibb.co/pXRWXJV/becky-cow.png" alt="" />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section>
+            <mj-column width="550px"padding-left="15px" padding-right="15px">
+                <mj-image border-radius="20px" border="solid 4px black" src="https://tryboredcow.com/cdn/shop/files/23_1676x.png?v=1653457384" alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-section padding="50px">
+            <mj-column >
+                <mj-text>
+                <a href="#" style="color:#8b37fa; text-decoration:none; font-weight:bold; ">Click here to gift a cow with a hobby</a>
+                    
+                
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-top="8px" padding-bottom="0px">
+            <mj-column>
+                <mj-divider padding-bottom="0px" border-color="black" border-width="10px" border-style="double" width="100%" />
+            </mj-column>
+        </mj-section>
+        <!-- footer -->
+        <mj-section background-color="#f6b3ff" padding="0px 25px 25px 30px">
+            <mj-column width="400px">
+                <mj-text color="#303030"  font-size="15px" line-height="14px" padding-top="55px" letter-spacing="1.5px">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <br/> <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </mj-text>
+                <mj-text letter-spacing="1px" font-size="12px" line-height="10px" padding-top="15px">
+                    <a href="#" style="color:#000000;" >Unsubscribe </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+    
+</mjml>
