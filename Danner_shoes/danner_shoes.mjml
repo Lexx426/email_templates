@@ -1,0 +1,143 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Playfair" href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quantico&family=Teko&display=swap" />
+        <mj-font name="logo-design" href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quantico&family=Satisfy&family=Teko&display=swap" />
+        <mj-attributes>
+            <mj-section padding="0px" background-color="#f7ecd2" />
+            <mj-image padding="0px"/>
+            <mj-text font-family="Playfair" align="center" padding="0px" font-size="20px" line-height="35px" color="#0c360e"/>
+            <mj-class name="head-text" font-size="45px"  text-transform="uppercase"/>
+            <mj-all padding="0" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#f0e7d5" width="600px">
+        <!-- hero image -->
+        <mj-hero mode="fluid-height" background-width="600px" background-height="700px" background-url="https://img.freepik.com/free-photo/male-foot-with-brown-leather-shoes-jeans_1150-6001.jpg?size=626&ext=jpg&ga=GA1.1.309378728.1693182631&semt=ais" background-color="#000000" padding="0px">
+            <mj-text  font-size="95px" padding-top="180px" align="center">
+                
+            </mj-text>
+        </mj-hero>
+        <!-- first title section -->
+        <mj-section padding="100px 20px 50px 20px">
+            <mj-column width="500px">
+                <mj-text mj-class="head-text" line-height="50px">
+                    Shoes are meant to take you somewhere
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- first body text section -->
+        <mj-section>
+            <mj-column width="500px">
+                <mj-text padding="0px 15px 0px 15px">
+                    Maybe it's somewhere you need to go. A different way of life you yearn to live. Or simply you need to fight for what's right. Others have defied convention to find their own independent path. 
+                </mj-text>
+                <mj-spacer height="50px" />
+                <mj-text font-size="25px">
+                    Where will yours take you?
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- square images -->
+        <mj-section padding="100px 25px 25px 25px">
+            <mj-group>
+                <mj-column width="50%">
+                    <mj-image width="200px"src="https://i.ibb.co/JyWVFtV/suedesneakerssquare1.jpg" alt=""/>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-image width="200px" src="https://i.ibb.co/K9RMTby/leatherboot1square.jpg" alt="" />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section padding="25px 25px 50px 25px">
+            <mj-group>
+                <mj-column width="50%">
+                    <mj-image width="200px"src="https://i.ibb.co/t4fpQdV/manleathershoessquare2.jpg" alt=""/>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-image width="200px" src="https://i.ibb.co/tzhCpCg/suedesneakerssquare2.jpg" alt="" />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- paragraph section -->
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="35px" >
+                    Take a walk in our new fall selection
+                </mj-text>
+                <mj-spacer height="50px" />
+            </mj-column>
+        </mj-section>
+                <mj-section>
+            <mj-column>
+                <mj-text padding="0px 25px 50px 25px">
+                    Crafting footprints of elegance. Step into a world of transformative style with our new Fall boots line. Embrace each step as a journey to your aspirations. Crafted for durability and elegance, these boots embody your individuality through urban adventures and rural escapes. Walk the path of distinction.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- button -->
+        <mj-section padding-bottom="50px">
+            <mj-column >
+                <mj-button background-color="#89a189" color="#0c360e" font-family="Playfair" font-size="18px" href="#">
+                    View Styles
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- picture quote -->
+        <mj-section>
+            <mj-column >
+                <mj-image src="https://img.freepik.com/free-photo/adventure-travel-nature-destination-exploring_53876-120730.jpg?size=626&ext=jpg&uid=R114586447&ga=GA1.2.309378728.1693182631&semt=ais" alt=" Adventures are the best way to learn" />
+            </mj-column>
+        </mj-section>
+        <!-- footer -->
+        <mj-section padding-top="55px" background-color="#89a189" >
+            <mj-column>
+                <mj-text font-family="logo-design" font-size="30px">
+                    <a href="#" style="color:white; font-family:Playfair-Display; text-decoration:none;" >Dane's Collection</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- shop mens -->
+        <mj-section background-color="#89a189" >
+            <mj-column>
+                <mj-text padding-top="25px" font-size="24px">
+                    <a href="#" style="color:white; text-decoration:none; font-weight:bold; " >Shop Men's</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- shop Womens -->
+        <mj-section background-color="#89a189" >
+            <mj-column>
+                <mj-text padding-top="8px" font-size="24px">
+                    <a href="#" style="color:white; text-decoration:none; font-weight:bold; " >Shop Women's</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- support -->
+        <mj-section background-color="#89a189" >
+            <mj-column>
+                <mj-text padding-top="8px" font-size="24px">
+                    <a href="#" style="color:white; text-decoration:none; font-weight:bold; " >Support</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- pay later -->
+        <mj-section background-color="#89a189" >
+            <mj-column>
+                <mj-text padding-top="8px" font-size="24px">
+                    <a href="#" style="color:white; text-decoration:none; font-weight:bold; " >Pay later with Klarna</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- address -->
+        <mj-section padding-bottom="50px" background-color="#89a189" >
+            <mj-column >
+                <mj-text padding-top="25px" font-size="18px" color="white">
+                    1234 N Street City, State, 60001
+                </mj-text>
+                <mj-text  font-size="15px" line-height="14px" padding-top="18px">
+                    <a href="#" style="color:white; text-decoration:none;">Unsubscribe </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

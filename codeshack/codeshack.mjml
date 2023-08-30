@@ -1,0 +1,175 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Teko" href="https://fonts.googleapis.com/css2?family=Quantico&family=Teko&display=swap" />
+        <mj-attributes>
+            <mj-section padding="0px" background-color="#1b0d3d" />
+            <mj-image padding="0px"/>
+            <mj-text font-family="Teko" align="center" font-size="25px" line-height="30px" color="white" padding="0px" letter-spacing="5px" />
+            <mj-class name="head-text" font-size="43px" line-height="60px" text-transform="uppercase"/>
+                
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#211247">
+        <!-- hero image -->
+        <mj-hero mode="fluid-height" background-width="600px" background-height="400px" background-url="https://img.freepik.com/free-vector/stream-binary-code-design_53876-118378.jpg?w=1060&t=st=1693182678~exp=1693183278~hmac=9fd94396937c894680da31162dd250742b5089cb6d6c24e80f26d86fb230881a" background-color="#1b0d3d" padding="0px">
+            <mj-text  font-size="95px" padding-top="180px" align="center">
+                CODESHACK
+            </mj-text>
+        </mj-hero>
+        <!-- tester section for mjimage rather than mj hero -->
+        <!-- <mj-section>
+            <mj-column width="600px">
+                <mj-image src="\codeshack\img\v627-aew-11-technologybackground.jpg" alt="" width="600px" padding="80px" border="2px solid green"/>
+                <mj-text font-family="Teko">
+                    yes
+                </mj-text>
+            </mj-column>
+        </mj-section> -->
+
+        <!-- header -->
+        <mj-section padding-top="100px">
+            <mj-column >
+                <mj-text mj-class="head-text">
+                    Take control of your future.
+                </mj-text>
+                <mj-spacer height="20px"/>
+                <mj-text mj-class="head-text">
+                    Code your future.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- green divider -->
+        <mj-section>
+            <mj-column>
+                <mj-divider border-color="green" border-width="2px" border-style="dashed" width="75%" />
+            </mj-column>
+        </mj-section>
+        <!-- paragraph sectopm -->
+        <mj-section padding-bottom="125px">
+            <mj-column width="400px">
+                <mj-text padding="15px 30px 10px 30px" letter-spacing="1px">
+            Learn a skill that will never let you down. The future is here. The future is code. By learning how to program, you can become up to speed with the changes of the world. 
+        </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- second header -->
+        <mj-section>
+            <mj-column width="400px">
+                <mj-text mj-class="head-text">
+                    Let us teach you with a course of ours...<br>or 3!</br>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- green divider -->
+        <mj-section>
+            <mj-column>
+                <mj-divider border-color="green" border-width="2px" border-style="dashed" width="75%" />
+            </mj-column>
+        </mj-section>
+        <!-- 3 column images -->
+        <mj-section >
+            <mj-column width="250px" padding-top="50px">
+                <mj-image href="#" width="200px" src="https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=600     " alt="Email Development" />
+                <mj-text padding-top="20px">
+                    <a href="#" style ="text-decoration:none; color:white;" >Email Development</a>
+                </mj-text>
+            </mj-column>
+            <mj-column width="250px" padding-top="50px">
+                <mj-image href="#" width="200px" src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Web Development" />
+                <mj-text padding-top="20px" >
+                    <a href="#" style ="text-decoration:none; color:white;" >Web Development</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-top="50px">
+            <mj-column >
+                <mj-image href="#" width="200px" src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Data Science" />
+                <mj-text padding-top="20px">
+                    <a href="#" style ="text-decoration:none; color:white;" >Data Science</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- green divider -->
+        <mj-section padding-top="45px">
+            <mj-column>
+                <mj-divider border-color="green" border-width="2px" border-style="dashed" width="75%" />
+            </mj-column>
+        </mj-section>
+        <!-- coupon section -->
+        <mj-section padding-top="55px">
+            <mj-column >
+                <mj-text mj-class="head-text" >
+                    Don't let this chance slip away...
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- two column section -->
+        <mj-section padding-top="50px" padding-bottom="50px">
+            <mj-column width="250px" vertical-align="middle">
+                <mj-image height="250px"src="https://images.pexels.com/photos/5632382/pexels-photo-5632382.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+            </mj-column>
+            <mj-column width="300px" vertical-align="middle">
+                <mj-text>
+                    ...capture it with this limited time offered discount! 
+                </mj-text>
+                <mj-button font-family="Teko" background-color="#402a7a" text-transform="uppercase" padding-top="10px"
+                font-size="18px"
+                >
+                    Redeem Now!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- green divider -->
+        <mj-section padding-top="45px">
+            <mj-column>
+                <mj-divider border-color="green" border-width="2px" border-style="dashed" width="75%" />
+            </mj-column>
+        </mj-section>
+        <!-- socials row 1-->
+        <mj-section padding="50px 25px 0px 25px">
+            <mj-column>
+                <mj-text mj-class="head-text" >
+                Want to learn more...Checkout our socials!
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-group>
+                <mj-column >
+                    <mj-social color="white" icon-size="50px" font-size="28px" padding-top="50px" font-family="Teko" >
+                        <mj-social-element name="facebook" href="https://mjml.io/" padding="15px" >
+                        Facebook
+                        </mj-social-element >
+                        <mj-social-element name="twitter" href="https://mjml.io/" padding="15px 15px 15px 20px">
+                        Twitter
+                        </mj-social-element>
+                </mj-column>
+            </mj-group>
+        <!-- socials row 2 -->
+        </mj-section>
+        <mj-section padding-bottom="25px">
+            <mj-group>
+                <mj-column >
+                    <mj-social color="white" icon-size="50px" font-size="28px" padding-top="30px" font-family="Teko">
+                        <mj-social-element name="linkedin" href="https://mjml.io/" padding="15px">
+                        Linkedin
+                        </mj-social-element>
+                        <mj-social-element name="Youtube" src="https://img.icons8.com/fluency/48/000000/youtube-play.png" padding="15px 15px 15px 20px">
+                        Youtube
+                        </mj-social-element>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- footer -->
+        <mj-section background-color="#aca4bf" padding="10px 25px 25px 30px">
+            <mj-column width="400px">
+                <mj-text color="#303030"  font-size="15px" line-height="14px" padding-top="55px" letter-spacing="1.5px">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <br/> <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </mj-text>
+                <mj-text letter-spacing="1px" font-size="12px" line-height="10px" padding-top="15px">
+                    <a href="#" style="color:#000000;" >Unsubscribe </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
