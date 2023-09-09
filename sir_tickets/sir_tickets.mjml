@@ -1,0 +1,147 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text padding="0px"  color="black" font-size="16px" font-family="Helvetica" align="center" line-height="22px" />
+            <mj-class name="artist" css-class="artist-fallback" font-size="25px" color="#463fc4"></mj-class>
+            <mj-image padding="0px"/>
+            <mj-section padding="0px" background-color="white" />
+            <mj-button background-color="#463fc4" inner-padding="10px 3px" width="130px" color="white" font-size="13px" font-family="Helvetica">
+        </mj-attributes>
+        <mj-style>
+            .hide_on_mobile { display: none !important;}
+            @media only screen and (min-width: 480px) { .hide_on_mobile { display: block !important;} }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-hero background-width="400px" mode="fluid-height" background-height="300px" padding="10px 0px" background-url="https://img.freepik.com/free-psd/music-banner-design-template_23-2149081196.jpg?w=1380&t=st=1694212944~exp=1694213544~hmac=3408c737bda84f00ac0a446be52b094e242fb17cbe15e05a5b52271cd22d7646">
+        </mj-hero>
+        <mj-section>
+            <mj-column>
+                <mj-text padding="50px 15px" mj-class="artist" font-size="50px" font-weight="900" letter-spacing="3px" text-transform="uppercase " >
+                    Sir music
+                </mj-text>
+                <mj-text font-size="18px" padding="0px 25px">
+                    Discover a world of live entertainment at your fingertips, where you can access a wide range of events from electrifying concerts and dazzling shows to thrilling sporting events. 
+                </mj-text>
+                <mj-text font-size="18px" padding="20px 25px">
+
+                    With Sir Music, you're just a click away from securing your spot at the most sought-after events in town. Our user-friendlpxy platform ensures a seamless ticket-buying experience, complete with real-time updates and interactive seating maps, ensuring you get the perfect seats every time. 
+                </mj-text>
+                <mj-text font-size="18px" padding="10px 25px">
+                    Discover these events that have been tailored to your preferences, ensuring you never miss out on the performances and experiences you love.
+
+                    Your support and loyalty mean the world to us, and we're committed to continuously enhancing your Sir Music journey.
+                </mj-text>  
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column >
+                <mj-divider border-color="grey" border-width="1px" border-style="solid" width="100%" padding-top="25px" padding-bottom="25px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="40px">
+            <!-- <mj-group> -->
+                <mj-column width="45%" padding-bottom="10px">
+                    <mj-image width="200px" src="https://img.freepik.com/free-photo/pop-musician-holding-guitar-performs-stage-generated-by-ai_188544-25359.jpg?size=626&ext=jpg&uid=R114586447&ga=GA1.2.309378728.1693182631&semt=ais" alt="side-view-person-holding-microphone-sings" alt="Great Dan" />
+                </mj-column>
+
+                <mj-column width="10%" >
+                    <mj-image css-class="hide_on_mobile" padding-left="30px" mj-class="hide-on-mobile" height="115px" src="https://i.ibb.co/dp0ytJZ/vertical-divider.png" alt="" />
+
+                </mj-column>
+
+                <mj-column width="45%" padding-top="2px" >
+                    <mj-text mj-class="artist">
+                        Great Dan
+                    </mj-text>
+                    <mj-text>
+                        September 8th, 2023
+                    </mj-text>
+                    <mj-text>
+                        8pm
+                    </mj-text>
+                    <mj-button href="#">
+                        view tickets
+                    </mj-button>
+                </mj-column>
+            <!-- </mj-group> -->
+        </mj-section>
+        <mj-section padding="40px" >
+            <!-- <mj-group> -->
+                <mj-column width="45%">
+                    <mj-image width="200px" src="https://img.freepik.com/free-photo/young-caucasian-musician-singing-dancing-neon-light_155003-5502.jpg?w=1060&t=st=1694202596~exp=1694203196~hmac=71f92ea0ff51aa42efbc25d454c43a45774c888f8b45790c2c1bdab2823a83b5" alt="Great Dan" />
+                </mj-column>
+                
+                    <mj-column width="10%" >
+
+                        <mj-image css-class="hide_on_mobile" padding-left="30px" height="130px" src="https://i.ibb.co/dp0ytJZ/vertical-divider.png" alt="" />
+
+                    </mj-column>
+                
+                <mj-column width="45%" padding-top="10px">
+                    <mj-text mj-class="artist">
+                        Major Manson
+                    </mj-text>
+                    <mj-text>
+                        September 12th, 2023
+                    </mj-text>
+                    <mj-text>
+                        8pm
+                    </mj-text>
+                    <mj-button>
+                        view tickets
+                    </mj-button>
+                </mj-column>
+            <!-- </mj-group>
+             -->
+        </mj-section>
+        <mj-section padding="40px">
+            <!-- <mj-group> -->
+                <mj-column width="45%" >
+                    <mj-image width="200px" src="https://img.freepik.com/free-photo/man-with-guitar-book-sitting-bench-park-sunlight_181624-14005.jpg?size=626&ext=jpg&uid=R114586447&ga=GA1.2.309378728.1693182631&semt=sph" alt="Great Dan" />
+                </mj-column>
+                <mj-column width="10%" >
+                    <mj-image css-class="hide_on_mobile" padding-left="30px" height="130px" src="https://i.ibb.co/dp0ytJZ/vertical-divider.png" alt="" />
+                </mj-column>
+                <mj-column width="45%" padding-top="10px">
+                    <mj-text mj-class="artist">
+                        Jason Trev
+                    </mj-text>
+                    <mj-text>
+                        September 18th, 2023
+                    </mj-text>
+                    <mj-text>
+                        8pm
+                    </mj-text>
+                    <mj-button>
+                        view tickets
+                    </mj-button>
+                </mj-column>
+            <!-- </mj-group> -->
+        </mj-section>
+        <mj-section padding="40px" >
+            <!-- <mj-group> -->
+                <mj-column width="45%" padding-bottom="10px" >
+                    <mj-image width="200px" src="https://img.freepik.com/free-photo/singer-performing-stage-live-show-double-color-exposure-effect_53876-104901.jpg?size=626&ext=jpg&uid=R114586447&ga=GA1.2.309378728.1693182631&semt=sph" alt="Great Dan" />
+                </mj-column>
+                <mj-column width="10%" >
+                    <mj-image css-class="hide_on_mobile" padding-left="30px" height="110px" src="https://i.ibb.co/dp0ytJZ/vertical-divider.png" alt="" />
+                </mj-column>
+                <mj-column width="45%" padding-bottom="5px">
+                    <mj-text mj-class="artist">
+                        David Letter
+                    </mj-text>
+                    <mj-text>
+                        September 22th, 2023
+                    </mj-text>
+                    <mj-text>
+                        8pm
+                    </mj-text>
+                    <mj-button>
+                        view tickets
+                    </mj-button>
+                </mj-column>
+            <!-- </mj-group> -->
+        </mj-section>
+    </mj-body>
+</mjml>
