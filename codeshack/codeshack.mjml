@@ -106,14 +106,14 @@
         <!-- two column section -->
         <mj-section padding-top="50px" padding-bottom="50px">
             <mj-column width="250px" vertical-align="middle">
-                <mj-image height="250px"src="https://images.pexels.com/photos/5632382/pexels-photo-5632382.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                <mj-image height="250px"src="https://images.pexels.com/photos/5632382/pexels-photo-5632382.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Discount image" />
             </mj-column>
             <mj-column width="300px" vertical-align="middle">
                 <mj-text>
                     ...capture it with this limited time offered discount! 
                 </mj-text>
-                <mj-button font-family="Teko" background-color="#402a7a" text-transform="uppercase" padding-top="10px"
-                font-size="18px"
+                <mj-button font-family="Teko" background-color="#402a7a" text-transform="uppercase" 
+                font-size="18px" href="#"
                 >
                     Redeem Now!
                 </mj-button>
