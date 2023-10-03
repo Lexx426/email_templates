@@ -57,7 +57,7 @@
                 <mj-text>
                     Checkout our latest video.
                 </mj-text>
-                <mj-image href="#" padding-top="20px" src="https://i.ibb.co/SmsznF8/video-image.jpg" alt="" />
+                <mj-image href="#" padding-top="20px" src="https://i.ibb.co/SmsznF8/video-image.jpg" alt=" Watch our latest video! " />
             </mj-column>
         </mj-section>
         <!-- services -->
@@ -71,25 +71,25 @@
         <!-- gurantees section -->
         <mj-section padding="30px 50px 0px 50px">
             <mj-column width="200px" padding="20px">
-                <mj-image width="40px" src="warstic_imgs\truck.png" alt="" />
+                <mj-image width="40px" src="warstic_imgs\truck.png" alt="Express Delivery" />
                 <mj-text font-size="12px" line-height="21px" padding-top="15px">
                     Express Delivery
                 </mj-text>
             </mj-column>
             <mj-column width="200px" padding="20px">
-                <mj-image width="40px" src="https://i.ibb.co/4dTJ3fM/truck.png" alt="" />
+                <mj-image width="40px" src="https://i.ibb.co/4dTJ3fM/truck.png" alt="Express Delivery" />
                 <mj-text font-size="12px" line-height="21px" padding-top="15px">
                     Express Delivery
                 </mj-text>
             </mj-column>
             <mj-column width="200px" padding="20px">
-                <mj-image width="40px" src="https://i.ibb.co/4dTJ3fM/truck.png" alt="" />
+                <mj-image width="40px" src="https://i.ibb.co/4dTJ3fM/truck.png" alt="Express Delivery" />
                 <mj-text font-size="12px" line-height="21px" padding-top="15px">
                     Express Delivery
                 </mj-text>
             </mj-column>
             <mj-column width="200px" padding="20px">
-                <mj-image width="40px" src="https://i.ibb.co/4dTJ3fM/truck.png" alt="" />
+                <mj-image width="40px" src="https://i.ibb.co/4dTJ3fM/truck.png" alt="Express Delivery" />
                 <mj-text font-size="12px" line-height="21px" padding-top="15px">
                     Express Delivery
                 </mj-text>
@@ -113,10 +113,10 @@
         <mj-section background-color="#f6f6f6" padding-bottom="30px">
             <mj-column width="300px" padding-top="30px">
                 <mj-text>
-                    <img src="https://i.ibb.co/cXhwsB1/facebook.png" width="25px" style="padding:5px;" />
-                    <img src="https://i.ibb.co/fpNp28Z/instagram.png" width="25px" style="padding:5px;" />
-                    <img src="https://i.ibb.co/WKh602r/twitter.png" width="25px" style="padding:5px;" />
-                    <img src="https://i.ibb.co/k2Pg2cK/youtube.png" width="25px" style="padding:5px;" />
+                    <a href="#" style="text-decoration:none;"><img src="https://i.ibb.co/cXhwsB1/facebook.png" width="25px" style="padding:5px;" /> </a>
+                    <a href="#" style="text-decoration:none;"><img src="https://i.ibb.co/fpNp28Z/instagram.png" width="25px" style="padding:5px;" /></a>
+                    <a href="#" style="text-decoration:none;"><img src="https://i.ibb.co/WKh602r/twitter.png" width="25px" style="padding:5px;" /></a>
+                    <a href="#" style="text-decoration:none;"><img src="https://i.ibb.co/k2Pg2cK/youtube.png" width="25px" style="padding:5px;" /></a>
                 </mj-text>
                 <mj-text color="#303030" font-family="Helvetica" font-size="12px" line-height="14px" padding-top="15px">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
