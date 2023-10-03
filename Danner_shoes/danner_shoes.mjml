@@ -41,20 +41,20 @@
         <mj-section padding="100px 25px 25px 25px">
             <mj-group>
                 <mj-column width="50%">
-                    <mj-image width="200px"src="https://i.ibb.co/JyWVFtV/suedesneakerssquare1.jpg" alt=""/>
+                    <mj-image width="200px"src="https://i.ibb.co/JyWVFtV/suedesneakerssquare1.jpg" alt="Suede Sneakers"/>
                 </mj-column>
                 <mj-column width="50%">
-                    <mj-image width="200px" src="https://i.ibb.co/K9RMTby/leatherboot1square.jpg" alt="" />
+                    <mj-image width="200px" src="https://i.ibb.co/K9RMTby/leatherboot1square.jpg" alt="Leather Boots" />
                 </mj-column>
             </mj-group>
         </mj-section>
         <mj-section padding="25px 25px 50px 25px">
             <mj-group>
                 <mj-column width="50%">
-                    <mj-image width="200px"src="https://i.ibb.co/t4fpQdV/manleathershoessquare2.jpg" alt=""/>
+                    <mj-image width="200px"src="https://i.ibb.co/t4fpQdV/manleathershoessquare2.jpg" alt="Leather Boots"/>
                 </mj-column>
                 <mj-column width="50%">
-                    <mj-image width="200px" src="https://i.ibb.co/tzhCpCg/suedesneakerssquare2.jpg" alt="" />
+                    <mj-image width="200px" src="https://i.ibb.co/tzhCpCg/suedesneakerssquare2.jpg" alt="Suede Sneakers" />
                 </mj-column>
             </mj-group>
         </mj-section>
@@ -92,7 +92,7 @@
         <mj-section padding-top="55px" background-color="#89a189" >
             <mj-column>
                 <mj-text font-family="logo-design" font-size="30px">
-                    <a href="#" style="color:white; font-family:Playfair-Display; text-decoration:none;" >Dane's Collection</a>
+                    <a href="#" style="color:white; font-family:Playfair-Display; text-decoration:none;" >Danner's Collection</a>
                 </mj-text>
             </mj-column>
         </mj-section>
