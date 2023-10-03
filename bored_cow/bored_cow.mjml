@@ -9,7 +9,7 @@
     </mj-head>
     <mj-body  background-color="#ab6bff" width="600px" >
         <!-- hero image -->
-        <mj-hero mode="fluid-height" background-width="600px" background-height="700px" background-url="https://tryboredcow.com/cdn/shop/files/bored-cow-original-pouring-glass_1400x.jpg?v=1671133130" background-color="#000000" padding="0px">
+        <mj-hero mode="fluid-height"  background-width="600px" background-height="700px" background-url="https://tryboredcow.com/cdn/shop/files/bored-cow-original-pouring-glass_1400x.jpg?v=1671133130" background-color="#000000" padding="0px">
         </mj-hero>
         <mj-section>
             <mj-column >
@@ -43,7 +43,7 @@
             </mj-column>
         </mj-section>
         <mj-section padding-top="50px" padding-bottom="50px">
-            <mj-group>
+            <!-- <mj-group> -->
                 
             
                 <mj-column width="75%" padding="40px 0px 50px 30px">
@@ -58,13 +58,13 @@
                     </mj-text>
                 </mj-column>
                 <mj-column width="25%" padding="70px 10px 50px 0px">
-                    <mj-image width="100px"src="https://i.ibb.co/pXRWXJV/becky-cow.png" alt="" />
+                    <mj-image width="100px"src="https://i.ibb.co/pXRWXJV/becky-cow.png" alt="Becky the cow" />
                 </mj-column>
-            </mj-group>
+            <!-- </mj-group> -->
         </mj-section>
         <mj-section>
             <mj-column width="550px"padding-left="15px" padding-right="15px">
-                <mj-image border-radius="20px" border="solid 4px black" src="https://tryboredcow.com/cdn/shop/files/23_1676x.png?v=1653457384" alt="" />
+                <mj-image border-radius="20px" border="solid 4px black" src="https://tryboredcow.com/cdn/shop/files/23_1676x.png?v=1653457384" alt="Bored Cow at skate park" />
             </mj-column>
         </mj-section>
         <mj-section padding="50px">
